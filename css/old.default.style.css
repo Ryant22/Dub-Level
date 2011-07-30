@@ -1,0 +1,1619 @@
+/*
+Theme Name: Dub-Level
+Theme URI: http://www.dub-level.com
+Version: 2.0
+*/
+select{
+	margin:0;
+	padding:0;
+	z-index:1;
+}
+
+body
+{
+    background: #1A1A1A url(http://localhost/Dub-Framer-v2.0/images/bg.jpg) top center no-repeat;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    font: 75%/1.5 'Lucida Grande',Lucida,Verdana,Arial,Helvetica,sans-serif;
+    color: #aaa;
+}
+
+#image_slider{
+    margin:0 auto 20px;
+    width:980px;
+    height:200px;
+    -moz-border-radius:6px 6px 6px 6px;
+    background:url(http://localhost/Dub-Framer-v2.0/images/cbgb.png) top left repeat transparent;
+
+}
+
+#image_slider h2{
+    text-align:left;
+    font-family:Verdana, sans-serif;
+    padding:15px 20px 20px 20px;
+}
+
+#image_slider #right_slider{
+    float:right;
+    clear:both;
+    width:450px;
+}
+
+.video,
+.audio {
+    display: block;
+}
+
+
+#right_slider h2{
+    margin-top:-1px;
+}
+
+#image_slider #left_slider{
+    margin-top:5px;
+    width:480px;
+    border-right:2px solid #ffa500;
+    height:190px;
+}
+
+.jp-jplayer{
+    position:absolute;
+    top:+20%;
+    
+}
+
+#image_slider h2{
+    text-align:center;
+}
+
+#header
+{
+    z-index:200;
+    height:100px;
+    position:relative;
+    background: url("http://localhost/Dub-Framer-v2.0/images/cbgb.png") repeat top left transparent;
+    margin-bottom:20px;
+}
+
+.rating{
+	position:absolute;
+	left:+78%;
+	top:-27%;
+	margin:0 0 0 0;
+	padding:5px 0 5px 0;
+	display:inline;
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignleft {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignright {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header_content
+{
+    width: 980px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+#logo
+{
+    width: 320px;
+    height:100px;
+    float:left;
+    padding:25px 0px 0px 0px;
+}
+
+#menu
+{
+    width: 660px;
+    height:30px;
+    float:right;
+    padding:35px 0px 0px 0px;
+    font-size:11px;
+    position:relative;
+    z-index:220;
+}
+
+a img
+{
+    border-style: none;
+}
+
+a{
+	color: #ffa500;
+}
+
+a:hover img
+{
+    border-style: none;
+}
+b.sf-menu ul
+{
+    margin: 0;
+    float: right;
+}
+b.sf-menu ul li
+{
+    position: relative;
+    display: inline-block;
+}
+b.sf-menu ul li a,  b.sf-menu ul li a:link,  b.sf-menu ul li a:visited
+{
+    color:#999;
+    text-decoration:none;
+    padding: 14px 28px 14px 28px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    background-color:#101010;
+    border:#222 solid 1px;
+}
+b.sf-menu ul li a:hover
+{
+    color:#eee;
+    text-decoration:none;
+    padding: 14px 28px 14px 28px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    background-color:#212121;
+    border:#222 solid 1px;
+}
+bsf-menu ul, d.sf-menu li
+{
+    list-style:none outside;
+    margin-left:0px;
+    list-style-type:disc;
+}
+
+/** menu styles **/
+.sf-menu,.sf-menu * {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    text-align: left;
+}
+
+.sf-menu {
+    line-height: 1.0;
+    float: right;
+}
+
+.sf-menu ul {
+    position: absolute;
+    top: -999em;
+}
+
+.sf-menu ul li {
+    width: 100%;
+}
+
+.sf-menu li:hover {
+    visibility: inherit;
+}
+
+.sf-menu li {
+    float: left;
+    position: relative;
+    margin: 0 0 0 3px;
+    margin: 1px 1px 0 0;
+    display: block;
+    position: relative;
+    color:#999;
+    text-decoration:none;
+    padding: 14px 28px 14px 28px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    background-color:#101010;
+    border:#222 solid 1px;
+}
+
+.sf-menu li:hover{
+    float: left;
+    position: relative;
+    margin: 0 0 0 3px;
+    margin: 1px 1px 0 0;
+    display: block;
+    position: relative;
+    color:#eeeeee;
+    text-decoration:none;
+    padding: 14px 28px 14px 28px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    background-color:#212121;
+    border:#222 solid 1px;
+}
+
+.sf-menu a {
+    display: block;
+    position: relative;
+
+}
+
+* + html .sf-menu a {
+    padding: 4px 8px 4px 8px;
+}
+
+.sf-menu li:hover ul,.sf-menu li.sfHover ul {
+    left: 0;
+    top: 40px;
+    position: absolute;
+    z-index: 250;
+}
+
+.sf-menu li ul li a{
+    color:#000;
+}
+
+.sf-menu li ul li:hover{
+    background:#000;
+}
+
+.sf-menu li ul li a:hover, .sf-menu li ul li:after{
+    color:#999;
+}
+.sf-menu a {
+    color: #000;
+}
+
+.sf-menu li li {
+    margin: 1px 1px 0 0;
+    background:#ffe5ff;
+    color:#000;
+}
+
+
+.sf-menu li li li {
+    left: -270px;
+    top: -1px;
+    margin: 1px 1px 0 -1px;
+}
+
+.sf-menu li li li a{
+    color:#fff;
+}
+
+.sf-menu a.sf-with-ul {
+    min-width: 1px;
+}
+
+.sf-sub-indicator {
+
+    position: absolute;
+    display: block;
+    right: .75em;
+    top: 1.05em;
+    width: 0px;
+    height: 0px;
+    text-indent: -999em;
+    overflow: hidden;
+}
+
+ul.sf-menu li:hover li ul,ul.sf-menu li.sfHover li ul,ul.sf-menu li li:hover li ul,ul.sf-menu li li.sfHover li ul {
+    top:-999em;
+}
+
+ul.sf-menu li li:hover ul,ul.sf-menu li li.sfHover ul,ul.sf-menu li li li:hover ul,ul.sf-menu li li li.sfHover ul {
+    left:10em;
+    top:0;
+}
+
+.sf-menu ul .sf-sub-indicator,.sf-menu ul a:focus > .sf-sub-indicator,.sf-menu ul a:hover > .sf-sub-indicator,.sf-menu ul a:active > .sf-sub-indicator,.sf-menu ul li:hover > a > .sf-sub-indicator,.sf-menu ul li.sfHover > a > .sf-sub-indicator {
+    background-position:-10px 0;
+}
+
+#sliderwrap
+{
+    position: relative;
+    width:1020px;
+    height:375px;   
+    margin:0px auto;
+    padding:5px 0px 0px 60px;
+    background-image:url(http://localhost/Dub-Framer-v2.0/images/slidebackground.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    z-index:150;
+}
+
+p.notice, p.error, p.success {
+    margin:0 0 5px 0;
+    padding:5px 10px 5px 25px;
+    font-size:13px;
+    font-weight:bold;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+
+p.notice {
+    background:#E5E5AE url(http://localhost/Dub-Framer-v2.0/images/icons/notice.png) no-repeat scroll 5px 50%;
+    color:#A47201;
+}
+
+p.error {
+    background:#E37D7D url(http://localhost/Dub-Framer-v2.0/images/icons/error.png) no-repeat scroll 5px 50%;
+    color:#A1380B;
+}
+
+p.success {
+    background:#BCD8A1 url(http://localhost/Dub-Framer-v2.0/images/icons/success.png) no-repeat scroll 5px 50%;
+    color:#395421;
+}
+
+p.notice ul, p.error ul, p.success ul{
+
+}
+
+#subFooter{
+    width: 600px;
+    height:30px;
+    opacity:0.7;
+    line-height:30px;
+    text-align:center;
+    color:#333;
+    margin: 0px auto;
+    overflow: hidden;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    background-image:url(http://localhost/Dub-Framer-v2.0/images/cbgb.png);
+    background-repeat:repeat;
+}
+
+#slider
+{
+    width:960px;
+    height:350px;
+    position: relative;
+    z-index:160;
+}
+
+#contentwrap
+{
+    width: 980px;
+    margin: 0px auto;
+    overflow: hidden;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    background-image:url(http://localhost/Dub-Framer-v2.0/images/cbgb.png);
+    background-repeat:repeat;
+}
+
+/* MainContent */
+#maincontent
+{
+    width: 630px;
+    min-height:900px;
+    margin-top:20px;
+    margin-left:20px;
+    float:left;
+}
+
+.post
+{
+	aposition:absolute;
+    width: 595px;
+    min-height:500px;
+    float:left;
+    border:1px solid #222;
+    padding:10px;
+	margin:25px;
+}
+
+h1
+{
+    font-family:Arial, Helvetica, sans-serif; 
+    font-weight:normal;
+    font-size:28px;
+    color:#ffa500;
+    text-decoration:none;
+}
+
+h1 a
+{
+    font-family:Arial, Helvetica, sans-serif; 
+    font-weight:normal;
+    font-size:28px;
+    color:#ffa500;
+    text-decoration:none;
+}
+
+h2
+{
+    font-family:Arial, Helvetica, sans-serif; 
+    font-weight:normal;
+    font-size:18px;
+    color:#ffa500;
+    text-decoration:none;
+}
+
+h2 a
+{
+    font-family:Arial, Helvetica, sans-serif; 
+    font-weight:normal;
+    font-size:24px;
+    color:#9c9c9c;
+    text-decoration:none;
+}
+
+.post_image
+{
+	
+    margin-top:-25px;
+    width:500px;
+    height:350px;
+    z-index:999;
+    padding:5px;
+}
+
+.post_image .post_img
+{
+    max-width:500px;
+    max-height:350px;
+    margin-top:34px;
+    border:1px solid #fff;
+    padding:2px;
+    background:#fff;
+}
+
+.post_image a{
+    max-width:500px;
+    max-height:350px;
+    margin-top:24px;
+}
+
+
+
+.post_info
+{
+	position:absolute;
+    width: 630px;
+    float:left;
+    height:110px;
+}
+
+.post_info a
+{
+    text-decoration:none;
+    color: #4A4A4A;
+}
+
+.post_info a:hover
+{
+    text-decoration: underline;
+    color: #4A4A4A;
+}
+
+.post_date
+{
+    margin-top:-20px;
+    width: 300px;
+    float:left;
+    height:20px;
+    text-align:left;
+    font-size:11px;
+    padding-top:3px;
+}
+.post_date a{
+color:#ffa500;
+}
+
+.post_article{
+	padding:10px;
+	margin-top:+9%;
+	margin-bottom:+4%;
+    width: 550px;
+    float:left;
+    height:auto;
+    min-height:50px;
+    text-align:left;
+    font-size:13px;
+	font-family:Verdana, Arial, sans-serif;
+	border:1px solid #101010;
+	background:url(http://localhost/Dub-Framer-v2.0/images/cbgb.png) repeat transparent;
+}
+.other_info{
+    margin-top:-20px;
+    width: 300px;
+    float:right;
+    height:20px;
+    font-size:11px;
+    padding-top:3px;
+}
+
+.post_comments
+{
+    margin-top:-20px;
+    width: 120px;
+    float:right;
+    text-align:right;
+    font-size:11px;
+    height:20px;
+    padding-top:3px;
+    padding-right:25px;
+    background-image:url(http://localhost/Dub-Framer-v2.0/images/comment.png);
+    background-repeat:no-repeat;
+    background-position:right;
+}
+
+.number_of_comments{
+    width:150px;
+    height:auto;
+	margin-left:1%;
+}
+
+
+/* Single ///////////////////////////////////////*/
+#singlecontent
+{
+    width: 940px;
+    margin-top:20px;
+    margin-left:20px;
+    float:left;
+}
+
+#singlecontent img
+{
+    padding:2px;
+    border:#000 solid 1px;
+}
+
+#single_post
+{
+    width: 940px;
+    float:left;
+}
+
+#single_post_info
+{
+    width: 940px;
+    height:40px;
+    margin-top:5px;
+    float:left;
+    font-size:10px;
+}
+
+p {
+    text-align:left;
+}
+
+/* Sidebar */
+#sidebar
+{
+    width:300px;
+    float:right;
+    margin-top:10px;
+    padding-left:10px;
+    border-left:#333 dotted 1px;
+    text-align:left;
+    color:#333;
+}
+
+#popular_posts
+{
+    width:270px;
+    float:left;
+    margin-bottom:5px;
+    margin-top:-15px;
+}
+
+#popular_posts ul{
+    margin-left: -15px;
+    width:290px;
+    float:left;
+}
+
+#popular_posts li{
+    height:70px;
+    float:left;
+}
+
+#popular_posts li a img{
+    width:56px;
+    height:56px;
+    margin-right:5px;
+    float:left;
+    padding: 3px 3px 3px 3px;
+    border:#999 solid 1px;
+}
+
+#popular_posts li a:hover img{
+    width:56px;
+    height:56px;
+    margin-right:5px;
+    float:left;
+    padding: 3px 3px 3px 3px;
+    border:#333 solid 1px;
+}
+
+#popular_posts li a span{
+    color:#333;
+}
+
+#popular_posts li a:hover span{
+    color:#000000;
+    text-decoration:underline;
+}
+
+#popular_posts ul{margin: 0;padding: 0;list-style-type: none; float: right;}
+#popular_posts ul li{position: relative;display: inline;}
+#popular_posts ul li a,  ul li a:link,  ul li a:visited{color:#999; text-decoration:none}
+#popular_posts ul, #popular_posts li{list-style:none outside;margin-left:25px;list-style-type:disc;}
+
+#recent_comments
+{
+    width:290px;
+    float:left;
+    margin-bottom:15px;
+}
+
+#recent_comments li{
+    width:270px;
+    float:left;
+    color:#000;
+    margin-left:5px;
+}
+
+#recent_comments li a{
+    color:#666666;
+    text-decoration:none;
+}
+
+#recent_comments li a:hover{
+    color:#333333;
+    text-decoration:underline;
+}
+
+#search{
+    border: none;
+    width:275px;
+    color:#ccc;
+}
+
+#s{
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border: none;
+    width:215px;
+    padding:8px 0px 0px 0px;
+    color:#333;
+    border:#666 solid 1px;
+}
+
+#searchsubmit{
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    width:50px;
+    float:right;
+    padding:3px 0px 3px 0px;
+    color:#333;
+    border:#666 solid 1px;
+    cursor: pointer;
+}
+
+#clearspace
+{
+    width:290px;
+    height:5px;
+}
+/* Comments */
+.commentsnumber {
+    background: url(http://localhost/Dub-Framer-v2.0/images/comments.png) top left no-repeat;
+    width: 32px;
+    height: 30px;
+    margin: 40px 5px 5px 0;
+    padding: 4px 0 0 0;
+    text-align: center;
+    float: right;
+}
+
+.commentsnumber a:link, .commentsnumber a:visited {
+    color: #101010;
+}
+
+.commentsnumber a:hover {
+    color: #757575;
+}
+
+/** comment styles **/
+.comments {
+    width: 920px;
+    color: #4A4A4A;
+    margin: 20px 20px 20px 20px;
+    float: left;
+}
+
+#reply_form {
+    background: #cccccc;
+    width: 920px;
+    margin: 20px 0 0 0;
+    padding: 8px;
+    float: left;
+}
+
+* + html #comments {
+    margin: 0 0 -10px 0;
+}
+
+.comments h3 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+
+.comments p {
+    margin: 5px 0 5px 0;
+}
+
+.comment-author {
+    font-weight: normal;
+}
+
+.comment-meta {
+    font-size: 10px;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+}
+
+.avatar {
+    float: right;
+    display: inline;
+    margin: 0 0 15px 15px;
+}
+
+#comment {
+    width: 510px;
+    font: 12px arial,helvetica,verdana,sans-serif;
+}
+
+h2.commh2 {
+    font-size: 1.4em !important;
+    padding: 0 0 5px;
+    color: #333 !important;
+}
+
+ol.commentlist {
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style: none;
+}
+
+ol.commentlist p {
+    margin-bottom: 10px;
+}
+
+ol.commentlist a:link, ol.commentlist a:visited {
+    color: #4A4A4A;
+}
+
+ol.commentlist a:hover {
+    color: #4A4A4A;
+    text-decoration: underline;
+}
+
+ol.commentlist cite {
+    font-style: normal;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+ol.commentlist li.alt {
+    padding: 8px 8px 0 8px;
+    margin: 20px 0 0 0;
+    background: #dddddd;
+    color: #4A4A4A;
+    width: 604px;
+    float: left;
+}
+
+ol.commentlist li {
+    padding: 8px 8px 0 8px;
+    margin: 20px 0 0 0;
+    background:#dddddd;
+    color: #4A4A4A;
+    width: 604px;
+    float: left;
+}
+
+ol.commentlist li div.reply {
+    color: #4A4A4A;
+    padding: 4px 10px 5px 10px;
+    text-align: center;
+    width: 36px;
+    background: #dddddd;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+    font-size: 9px;
+}
+
+ol.commentlist li div.reply:hover {
+    background: #dddddd;
+}
+
+ol.commentlist li div.reply a {
+    color: #4A4A4A;
+    text-decoration: none;
+
+}
+
+ol.commentlist li ul.children { 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+
+ol.commentlist li ul.children li {
+    background: none;
+    margin: 10px 0 0 0;
+    padding: 10px 0 0px 0;
+    background: url(http://localhost/Dub-Framer-v2.0/images/content-bg.png) top left repeat-x;
+    width: 604px;
+    float: left;
+}
+
+ol.commentlist li ul.children li.alt {
+    background: none;
+    margin: 10px 0 0 0;
+    padding: 10px 0 0px 0;
+    background: url(http://localhost/Dub-Framer-v2.0/images/content-bg.png) top left repeat-x;
+    width: 604px;
+    float: left;
+}
+
+ol.commentlist li ul.children li.depth-2 { margin:0; }
+ol.commentlist li ul.children li.depth-3 { margin:0; }
+ol.commentlist li ul.children li.depth-4 { margin:0; }
+ol.commentlist li ul.children li.depth-5 { margin:0; }
+
+input#submit {
+    cursor: pointer;
+    background: url(http://localhost/Dub-Framer-v2.0/images/submit.png) 0 0;
+    border: none;
+    width: 120px;
+    height: 30px;
+    padding: 0;
+    margin: 0 0 -20px 0;
+}
+
+* + html input#submit {
+    margin: 0 0 10px 0;
+}
+
+input#submit:hover {
+    background: url(http://localhost/Dub-Framer-v2.0/images/submit.png) 0 -30px;
+}
+
+
+#comment {
+    background: #eee url(http://localhost/Dub-Framer-v2.0/images/text-area.png) top left no-repeat;
+    border: none;
+    width: 880px;
+    height: 215px;
+    margin-top:10px;
+}
+
+
+
+#author {
+    background: url(http://localhost/Dub-Framer-v2.0/images/fields-name.png) top left no-repeat;
+    border: none;
+    width: 154px;
+    height: 20px;
+    padding: 7px 125px 3px 5px;
+}
+
+#email {
+    background: url(http://localhost/Dub-Framer-v2.0/images/fields-email.png) top left no-repeat;
+    border: none;
+    width: 154px;
+    height: 20px;
+    padding: 7px 125px 3px 5px;
+}
+
+#url {
+    background: url(http://localhost/Dub-Framer-v2.0/images/fields-web.png) top left no-repeat;
+    border: none;
+    width: 154px;
+    height: 20px;
+    padding: 7px 125px 3px 5px;
+}
+
+#respond {
+    padding: 0 15px 10px 0;
+}
+
+.fieldset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.fieldset li {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+
+#loginform{
+    margin:0 auto;
+    text-align:center;
+    width:400px;
+}
+
+.section {
+    margin:0 0 20px 0;
+}
+
+.section h1 {
+    margin:0 0 10px 0;
+    font-size:18px;
+    font-style:normal;
+    font-weight:normal;
+    text-transform:normal;
+    letter-spacing:-1px;
+    display:block;
+    background:url(http://localhost/Dub-Framer-v2.0/images/h1underline.png) repeat-x scroll 0 100%;
+}
+
+.section h2 {
+    font-size:14px;
+    font-style:normal;
+    font-weight:normal;
+    text-transform:normal;
+    letter-spacing:normal;
+    line-height:1.4em;
+    display:block;
+}
+
+.post h1 {
+    margin:0;
+    padding:0;
+    font-size:18px;
+    font-style:normal;
+    font-weight:normal;
+    text-transform:normal;
+    letter-spacing:-1px;
+    display:block;
+}
+
+.overviewblock {
+    float:left;
+    width:240px;
+    margin:0 10px 0 0;
+}
+
+.overviewblocklast {
+    margin:0;
+}
+
+ul.overview {
+    list-style-type:none;
+}
+
+ul.overview li {
+    margin:0 0 2px 0;
+    padding:2px 0 2px 25px;
+}
+
+ul.overview li.filestats, ul.overview li.premium, ul.overview li.user, ul.overview li.filehost { padding:5px 0 5px 25px; font-size:14px; }
+ul.overview li.filestats { background:transparent url(../../images/icons/filestats.png) no-repeat scroll 3px 50%; }
+ul.overview li.premium { background:transparent url(../../images/icons/premium.png) no-repeat scroll 3px 50%; }
+ul.overview li.user { background:transparent url(../../images/icons/group.png) no-repeat scroll 3px 50%; }
+ul.overview li.filehost { background:transparent url(../../images/icons/filehost.png) no-repeat scroll 3px 50%; }
+
+h1.clickable a {
+    text-decoration:none;
+    color:#262626;
+    font-size:18px;
+    font-style:normal;
+    font-weight:normal;
+    text-transform:normal;
+    letter-spacing:-1px;
+    display:block;
+}
+
+a.expand, a.collapse {
+    padding:0 0 0 25px;
+}
+
+a.expand {
+    background:transparent url(../../images/icons/expand.png) no-repeat scroll 5px 50%;
+}
+
+a.collapse {
+    background:transparent url(../../images/icons/collapse.png) no-repeat scroll 5px 50%;
+}
+
+
+.datalist {
+    border-collapse:collapse;
+    text-align:left;
+    width:100%;
+}
+
+.datalist th {
+    border-bottom:1px solid #101010;
+    font-size:13px;
+    font-weight:bold;
+    padding:5px 8px;
+}
+
+.datalist td {
+    border-bottom:1px solid #101010;
+    border-top:1px solid #101010;
+    padding:5px 8px;
+}
+
+.datalist tfoot tr td {
+    font-size:12px;
+}
+
+.datalist tbody .h:hover td {
+    background:#101010;
+    opacity:0.5;
+    color:#ffa500;
+}
+
+/**
+ *	Form
+*/
+
+fieldset { width:25em; padding:5px 10px; }
+
+legend {
+    margin:0 0 0 5px;
+    font-size:14px;
+    font-style:normal;
+    font-weight:normal;
+    text-transform:normal;
+    letter-spacing:normal;
+    line-height:1.4em;
+    display:block;
+}
+
+label { float:left; position:relative; width:10em; display:inline; margin:.5em .5em; }
+label.long { width:21em; }
+label input { display:inline; left:100%; top:0px; width:10em; }
+label.long input { width:21em; }
+
+fieldset.upload { width:25em; padding:0; margin:0 auto; }
+label.upload { width : auto; }
+label.upload input[type="file"] { width:auto; }
+input[type="submit"].formbutton { margin:5px 0 0 5px; }
+
+span.req { color:#F00; }
+span.desc { margin:0 0 0 5px; }
+
+input.submit { margin-left:15em; }
+br { clear:both; }
+
+/**
+ *	Misc Classes
+*/
+
+.smalltext {
+    font-size:11px;
+}
+
+.clear {
+    clear:both;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+#registrationform{
+    margin:0 auto;
+    text-align:center;
+    width:400px;
+
+}
+
+
+
+/* -- Form Styles ------------------------------- */
+form {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+div.fieldset {
+    border:  1px solid #afe14c;
+    margin: 10px 0;
+    padding: 20px 10px;
+}
+div.fieldset span.legend {
+    position: relative;
+    background-color: #FFF;
+    padding: 3px;
+    top: -30px;
+    font: 700 14px Arial, Helvetica, sans-serif;
+    color: #73b304;
+}
+
+div.flash {
+    width: 375px;
+    margin: 10px 5px;
+    border-color: #D9E4FF;
+
+    -moz-border-radius-topleft : 5px;
+    -webkit-border-top-left-radius : 5px;
+    -moz-border-radius-topright : 5px;
+    -webkit-border-top-right-radius : 5px;
+    -moz-border-radius-bottomleft : 5px;
+    -webkit-border-bottom-left-radius : 5px;
+    -moz-border-radius-bottomright : 5px;
+    -webkit-border-bottom-right-radius : 5px;
+
+}
+
+button,
+input,
+textarea {
+    border-width: 1px;
+    margin-bottom: 10px;
+    padding: 2px 3px;
+}
+
+
+
+input[disabled]{ border: 1px solid #ccc } /* FF 2 Fix */
+
+
+label {
+    width: 150px;
+    text-align: right;
+    display:block;
+    margin-right: 5px;
+}
+
+/* -- Table Styles ------------------------------- */
+td {
+    font: 10pt Helvetica, Arial, sans-serif;
+    vertical-align: top;
+}
+/* clean gray
+*******************************************************************************/
+.clean-gray {
+    background: #eee;
+    background: -moz-linear-gradient(top, #eee 0%, #ccc 100%);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), to(#ccc));
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #bbb;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #333;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 8px 0;
+    text-align: center;
+    text-shadow: 0 1px 0 #eee;
+    width: 150px;
+}
+
+.clean-gray:hover {
+    background: #ddd;
+    background: -moz-linear-gradient(top, #ddd 0%, #bbb 100%);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ddd), to(#bbb));
+    border: 1px solid #bbb;
+    border-bottom: 1px solid #999;
+    cursor: pointer;
+    text-shadow: 0 1px 0 #ddd;
+}
+
+.clean-gray:active {
+    border: 1px solid #aaa;
+    border-bottom: 1px solid #888;
+    -moz-box-shadow: inset 0 0 5px 2px #aaa, 0 1px 0 0 #eee;
+    -webkit-box-shadow: inset 0 0 5px 2px #aaa, 0 1px 0 0 #eee;
+    box-shadow: inset 0 0 5px 2px #aaa, 0 1px 0 0 #eee;
+}
+
+/* Pagination: */
+#pagination{
+    width:620px;
+    height:20px;
+    position:relative;
+    top:-10%;
+}
+
+#pagination .pagination{
+    width:30px;
+    color:#000;
+    padding:15px;
+    text-decoration: underline;
+}
+
+#pagination #prev, #pagination #next{
+    color:#111;
+    padding:15px;
+}
+
+#pagination .current{
+    color:red;
+    text-decoration: none;
+}
+
+#topPag{
+    float:right;
+    clear:both;
+    position:absolute;
+    left:+39%;
+	top:+63%;
+    margin-top:2%;
+}
+
+#pagination #next, #pagination #prev{
+
+    text-decoration: underline;
+    color:#111;
+}
+
+#topPag #pagination #next, #topPag #pagination #prev, #topPag #pagination .pagination{
+    padding:5px;
+}
+
+#bottomPag{
+	width:800px;
+}
+
+#replace{
+    daisplay:none;
+}
+
+
+#searched_text{
+color:#999;	
+	
+}
+
+#search_results{
+	padding:20px;
+	margin-bottom:10px;
+}
+
+.searchTable table{
+	border:1px solid #111;
+	margin-bottom:5%;
+}
+
+.searchTable table tr td a{
+	font-size:15px;
+	text-decoration:none;
+}
+
+.searchTable table tr td{
+	width:100px;
+}
+
+
+#bottomBar{
+	display:none;
+	width:100%;
+	height:20px;
+	position:fixed;
+	left:-.5%;
+	top:92.5%;
+    clear:both;
+    border:1px solid #3c3c3c;
+    padding:15px;
+    background:#101010;
+    opacity:0.4;
+}
+
+#bottomBar #upgrade{
+	position:fixed;
+	left:35%;
+}
+
+#bottomBar #upgrade a{
+	text-decoration:none;
+	color:#006699;
+}
+
+#chat{
+	position:fixed;
+	left:90%;
+}
+
+#chatBox{
+	width:150px;
+	height:240px;
+	position:fixed;
+	left:86.5%;
+	top:51%;
+    clear:both;
+    border:1px solid #234;
+    padding:15px;
+    background:#101010;
+    opacity:0.8;
+    font-size:11px;
+    display:none;
+}
+
+
+#leftBar{
+	clear:both;
+    border:1px solid #111;
+    padding:5px;
+    background:#101010;
+    opacity:0.4;
+	position:absolute;	
+	left:-10%;
+	top:50%;
+	width:20px;
+	height:300px;
+	display:none;
+
+}
+
+#leftBar span{
+	display:block;
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	-webkit-transform: rotate(-90deg); 
+	-moz-transform: rotate(-90deg);
+	width:300px;
+	padding:5px;
+	height:auto;
+	position:absolute;
+	left:-10%;
+	top:52%;
+	color:#006699;
+}
+
+.comments_container{
+	width:500px;
+	padding:10px;
+	margin-top:2%;
+        margin-bottom:3%;
+	border:1px solid #101010;
+}
+
+textarea{
+	width: 400px;
+        height: 90px;
+        border: 3px solid #cccccc;
+        padding: 5px;
+        font-family: Tahoma, sans-serif;
+        background-image: url(bg.gif);
+        background-position: bottom right;
+        background-repeat: no-repeat;
+	
+}
+
+.newComment{
+	margin-top:10px;
+	
+}
+
+
+.orange{
+	color:#ffa500;
+}
+
+.single_comment{
+	background:#101010;
+	border:1px solid #2d2d2d;
+	opacity:0.3;
+	padding:20px;
+	color:#fff;
+}
+
+
+.comment_replace{
+overflow:hidden;
+height:100px;
+}
+
+.my-player{
+  display:block;
+  float:left;
+  margin-top:10%;
+}
+
+.artist_container{
+ margin:10px 0 10px 0;
+ padding:25px 5px 5px 5px;
+ width:450px;
+ height:100px;
+ text-align:left;
+ font-size:13px;
+ font-family:Verdana, Arial, sans-serif;
+ border:1px solid #101010;
+ background:url(http://localhost/Dub-Framer-v2.0/images/images/cbgb.png) repeat transparent; 
+}
+
+.more_from{
+  margin-left:3%;
+}
+
+.artist_alias a{
+  text-decoration:none;
+  font-size:14px;
+}
+
+.artist_banner{
+color:#ffa500;
+font-size:28px;
+float:left;
+margin-left:-6%;
+padding-left:0;
+margin-top:4.5%;
+width:90px;
+border-bottom:2px solid #222222;
+font-family: Georgia, serif;
+font-weight:bold;
+-webkit-transform: rotate(-90deg); 
+-moz-transform: rotate(-90deg);	
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.artist_social_container{
+  margin-top:1%;
+}
+
+.artist_social_container, .artist_social_soundcloud, .artist_social_facebook, .artist_social_youtube, .artist_social_bandcamp, 
+.artist_social_myspace,
+.artist_social_twitter{
+  display:inline;
+}
+.artist_social_soundcloud, 
+.artist_social_facebook, 
+.artist_social_youtube, 
+.artist_social_bandcamp, 
+.artist_social_myspace,
+.artist_social_twitter{
+  border-bottom:2px solid #343434;
+  width:24px;
+  abackground:#fff;
+}
+
+.avatar{
+    border:1px solid #242424;
+    padding:1px;
+    background:#101010;
+    float:left;
+    clear:right;
+    margin-right:10px;
+}
+
+.smexyBox .launch a{
+color:green;
+}
+
+#popular_articles .popular_articles_a{
+display:block;
+padding:6px 2px 6px 2px;
+margin:5px 0 5px 0;
+color:#ddd;
+text-decoration:none;
+}
+
+#popular_articles .popular_articles_a:hover{
+color:#ffa500;
+}
+
+.comment_global{
+padding:5px;
+font-size:12px;
+color:#999;
+}
+
+.comments_username a{
+text-decoration:none;
+font-size:14px;
+font-family:Verdana, Arial, sans-serif;
+}
+
+.comments_date_posted{
+font-size:9px;
+}
+
+.comment_info_right{
+float:right;
+clear:both;
+}
+
+.comment_info_left{
+clear:left;
+}
+
+.comments_send_pm a{
+text-decoration:none;
+}
+
+.avatar{
+width:64px;
+}
+
+
+/* DOWNLOADS */
+.download{
+ margin:10px 0 10px 0;
+ padding:25px 5px 5px 5px;
+ width:450px;
+ height:100px;
+ text-align:left;
+ font-size:13px;
+ font-family:Verdana, Arial, sans-serif;
+ border:1px solid #101010;
+ background:url(http://localhost/Dub-Framer-v2.0/images/cbgb.png) repeat transparent; 
+}
+
+.download_banner{
+color:#ffa500;
+font-size:16px;
+float:left;
+margin-left:-6%;
+padding-left:0;
+margin-top:4.5%;
+width:90px;
+border-bottom:2px solid #222222;
+font-family: Georgia, serif;
+font-weight:bold;
+-webkit-transform: rotate(-90deg); 
+-moz-transform: rotate(-90deg);	
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.download_container{
+
+}
+
+.motionsharing{
+float:left;
+clear:both;
+}
+
+.motionsharing img{
+border:1px solid #101010;
+width:160px;
+}
+
+.not_logged_in_comment{
+margin:5px;
+padding:6px;
+font-size:13px;
+}
+
+.post_cat{
+z-index:1;
+margin:30px;
+}
+
+.miniP{
+position:relative;
+left:-95%;
+margin-top:25%;
+}
+

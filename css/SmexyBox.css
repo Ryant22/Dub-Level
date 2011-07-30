@@ -1,0 +1,78 @@
+.smexyBox{
+    position:fixed;
+    clear:both;
+    border:1px solid #555;
+    padding:15px;
+    background:#101010;
+    opacity:0.8;
+    display:none;
+}
+
+.smexyBox h2{
+    text-align:center;
+    padding-bottom:4px;
+    border-bottom:1px solid #555;
+
+
+}
+
+.smexyBox .close{
+    float:right;
+    clear:both;
+}
+
+.smexylist tbody .h td{
+    background:#333;
+    border:1px solid #555;
+    opacity:0.5;
+    color:#ffa500;
+}
+
+.smexylist tbody .h td a{
+    color:#ffa500;
+    text-decoration: none;
+}
+
+.smexylist tbody .h td .num{
+    color:#ffa500;
+    text-decoration: underline;
+}
+
+.smexylist tbody .h:hover td {
+    background:#333;
+    border:1px solid #aaa;
+    opacity:0.5;
+    color:#ffa500;
+}
+
+
+.beta{
+    left:0;
+    top:18.5%;
+    width:220px;
+    height:240px;
+}
+
+.welcome{
+    left:0;
+    top:18.5%;
+    width:220px;
+    height:240px;
+}
+
+.launch{
+    left:25%;
+    top:15.5%;
+    width:600px;
+    height:450px;
+    padding:10px;
+    z-index:999;
+}
+
+.launch ul li a{
+color:#ffa500;
+}
+
+.smexyA{
+color:green;
+}
